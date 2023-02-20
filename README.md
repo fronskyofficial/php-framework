@@ -28,7 +28,7 @@ git clone https://github.com/fronskyofficial/php-framework.git
 
 Once your local appache server is running, you can access the Fronsky PHP Framework website by visiting [localhost](http://localhost) in your web browser.
 
-# Publishing
+## Publishing
 
 1. Open the [public](public) directory and select all the files.
 2. Paste the files into the main folder of your website.
