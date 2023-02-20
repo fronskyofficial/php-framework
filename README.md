@@ -17,12 +17,21 @@ This repository contains the source code and assets for the Fronsky PHP Framewor
 }
 ```
 
-4. Change the `username` and the `password` from root to the actual data used in the database.
-5. Make sure to have [PHP 8.2.0](https://www.php.net/releases/8.2/en.php) or higher installed.
+4. Change the `username`, `password`, and the `database` to the actual data used in the database.
+5. Make sure to change the `PUBLIC_PATH` in the [index.php](public/index.php) to your website url where your public folder content is located.
+6. Make sure to have [PHP 8.2.0](https://www.php.net/releases/8.2/en.php) or higher installed.
 
 ## Usage
 
 Once your local appache server is running, you can access the Fronsky PHP Framework website by visiting [localhost](http://localhost) in your web browser.
+
+# Publishing
+
+1. Open the [public](public) directory and select all the files.
+2. Paste the files into the main folder of your website.
+3. Locate the [secure](secure) folder and copy it to the same location as the website's main folder.
+4. Configure the production database to match the localhost database.
+5. Congratulations! Your website is now securely published and ready to use.
 
 ## Contributing
 
