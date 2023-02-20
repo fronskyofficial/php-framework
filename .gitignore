@@ -44,6 +44,8 @@ $RECYCLE.BIN/
 .env
 .vagrant
 Vagrantfile
+*.json
+!spec/*.json
 
 #-------------------------
 # Temporary Files
