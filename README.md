@@ -4,7 +4,10 @@ This repository contains the source code and assets for the Fronsky PHP Framewor
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/fronskyofficial/php-framework.git`
+1. Clone this repository:
+```shell
+git clone https://github.com/fronskyofficial/php-framework.git
+```
 2. Inside the `secure` folder, create a file named `settings.json`
 3. Add the following code to the `settings.json` file:
 
@@ -25,7 +28,7 @@ This repository contains the source code and assets for the Fronsky PHP Framewor
 
 Once your local appache server is running, you can access the Fronsky PHP Framework website by visiting [localhost](http://localhost) in your web browser.
 
-# Publishing
+## Publishing
 
 1. Open the [public](public) directory and select all the files.
 2. Paste the files into the main folder of your website.
