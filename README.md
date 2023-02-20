@@ -17,7 +17,7 @@ This repository contains the source code and assets for the Fronsky PHP Framewor
 }
 ```
 
-4. Change the `username`, `password`, and the `database` to the actual data used in the database.
+4. Change the `username`, `password`, and the `database` to the actual data used for the database.
 5. Make sure to change the `PUBLIC_PATH` in the [index.php](public/index.php) to your website url where your public folder content is located.
 6. Make sure to have [PHP 8.2.0](https://www.php.net/releases/8.2/en.php) or higher installed.
 
