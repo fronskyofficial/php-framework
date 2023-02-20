@@ -1,6 +1,7 @@
 <?php
 
 // Define constants
+define('PUBLIC_PATH', 'http://localhost/public/');
 define('BASE_PATH', '../secure/');
 define('VIEW_PATH', BASE_PATH . 'views/');
 define('INCLUDE_PATH', BASE_PATH . 'includes/');
@@ -17,12 +18,14 @@ require BASE_PATH . 'app/enums/ErrorDefinitions.php';
  */
 function loadFile($path) {
     // Output the default styling for all views
-    echo '<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">';
-    echo '<link rel="icon" href="images/icon.png">';
-    echo '<link rel="apple-touch-icon" href="images/icon.png">';
-    echo '<link rel="stylesheet" type="text/css" href="css/core/bootstrap.min.css">';
-    echo '<script defer src="js/core/jquery.min.js"></script>';
-    echo '<script defer src="js/core/bootstrap.min.js"></script>';
+    echo '<link rel="shortcut icon" href="'.PUBLIC_PATH.'favicon.ico" type="image/x-icon">';
+    echo '<link rel="icon" href="'.PUBLIC_PATH.'images/icon.png">';
+    echo '<link rel="apple-touch-icon" href="'.PUBLIC_PATH.'images/icon.png">';
+    echo '<link rel="stylesheet" type="text/css" href="'.PUBLIC_PATH.'css/core/bootstrap.min.css">';
+    echo '<script defer src="'.PUBLIC_PATH.'js/core/jquery.min.js"></script>';
+    echo '<script defer src="'.PUBLIC_PATH.'js/core/bootstrap.min.js"></script>';
+    echo '<link rel="stylesheet" type="text/css" href="'.PUBLIC_PATH.'css/site.css">';
+    echo '<script defer src="'.PUBLIC_PATH.'js/site.js"></script>';
 
     // Load the specified file
     if (file_exists($path)) {
